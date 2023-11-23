@@ -1,0 +1,77 @@
+/* 
+  You don't need to add any styles to complete this project.
+
+  If you want to add styles, you can do so in this file.
+  
+*/
+
+
+
+/* These styles are for the disclaimer -- leave them alone */
+
+.disclaimer {
+  margin: 1em;
+  padding: 4px;
+  border: 1px solid hotpink;
+}
+body{
+    background: linear-gradient(rgb(91, 91, 167));
+    background-color:rgb(32, 32, 34);
+}
+.centered{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius:50%;
+}
+figcaption{
+  display:flex;
+  justify-content:center;
+  aligh-items:center;
+  position:relative;
+}
+
+.intro{
+  display:block;
+  background-color:#910d0d;
+  color:white;
+}
+p,h2{
+  color:white
+}
+h2{
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+a:hover{
+  background-color:#darkred;
+}
+a:visited{
+  background-color:orangered;
+}
+a:focus{
+  background-color:darkseagreen;
+}
